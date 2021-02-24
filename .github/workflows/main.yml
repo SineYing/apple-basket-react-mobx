@@ -52,7 +52,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
-          cd /root/appleBasket
+          cd /usr/share/nginx
           wget https://github.com/SineYing/apple-basket-react-mobx/releases/latest/download/release.tgz -O release.tgz
           tar -zxvf release.tgz
           pm2 reload pm2.config.json
