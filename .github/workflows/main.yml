@@ -54,7 +54,7 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd /root/appleBasket
-          wget https://github.com/SineYing/nuxtRealWorld/releases/latest/download/release.tgz -O release.tgz
+          wget https://github.com/SineYing/apple-basket-react-mobx/releases/latest/download/release.tgz -O release.tgz
           tar -zxvf release.tgz
           yarn install --production
           pm2 reload pm2.config.json
