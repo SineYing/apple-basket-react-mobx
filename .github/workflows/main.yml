@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@master
     - run: yarn install
     - run: yarn build
-    - run: tar -zcvf release.tgz package.json yarn.lock pm2.config.json
+    - run: tar -zcvf build release.tgz pm2.config.json
 
     # 发布 Release
     - name: Create Release
