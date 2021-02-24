@@ -51,7 +51,6 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
         script: |
           cd /root/appleBasket
           wget https://github.com/SineYing/apple-basket-react-mobx/releases/latest/download/release.tgz -O release.tgz
