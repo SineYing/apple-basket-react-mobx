@@ -1,11 +1,12 @@
-import Basket from "./Basket";
+import React, { Component } from 'react';
+import Basket from './Basket';
 
-function App() {
-  return (
-    <div className="App">
-      <Basket></Basket>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return <section>
+      <Basket />
+s    </section>
+  }
 }
 
 export default App;
