@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "appleBasket",
+            "script": "yarn",
+            "args": "start"
+        }
+    ]
+}
